@@ -1,2 +1,3 @@
 # bozsahin.github.io
-soon to be my web home 
+My web home. I will this one up to date and leave my other web homes to forces of nature.
+
