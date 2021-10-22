@@ -50,26 +50,28 @@ and philosophical implications of that,  assuming the following
 
 <ol>
 <li> Cognitive science is study of natural minds with computers.
-<li> Computer science is science of computers, and science with computers.
-<li> Computer engineering is realizing the idea of the computer. (yes, there is just one)
+<li> Computer science is about what can be automated to the extent of giving control/data to others without further need of instruction.
+<li> Computer engineering is realizing the idea of the computer. (Yes, there is just one)
 <li> Computer science and linguistics have similar ways to explore,
-	and seem to stand in contrast with psychology and philosophy. (yes, this one's for a bit of soul searching in cogsci).
+	and seem to stand in contrast with psychology and philosophy. (This one's for a bit of soul searching in cogsci).
 </ol>
 
-<p>Somewhat surprisingly, for some, all of these go back to one chap: Alan Turing. (Yes, he got us into trouble
+<p>Somewhat surprisingly, for some, all of these go back to one chap: Alan Turing. (He got us into trouble
 from day one by making an unfortunate analogy between humans and computers, but that was a long time ago,
 and trouble is his second name.)
+
+<p>
 The first idea is Turing's thesis (not Church-Turing thesis), which is essentially the beginning of
-cogsci. The second idea is what Newell and Simon thought about the Turing Machine. The third idea started with Turing's
+cogsci. The second idea is what Knuth and Valiant said, and what Newell and Simon thought about the Turing Machine. 
+The third idea started with Turing's
 ACE, which is essentially an electronic universal TM (let's face it; other `first computers' were 
-kludges). The fourth idea is now-forgotten collaboration of CS and linguistics, and it's time to get back to it, after a momentary Chomskyan lapse into other corners of science making.
+kludges). The fourth idea is now-forgotten collaboration of CS and linguistics, and it's time to get back to it.)
 
 <p>
 Better minds can tell you the same story in a different way. 
 Dennett might say item 1 leverages intentional stance to think there are also
 artificial minds.
-Knuth might say item 2 is attempting the question
-`what can be automated?'. Von Neumann would say item 3 is attempting the question `how can we automate it?'. 
+Von Neumann would say item 3 is attempting the question `how can we automate it?'. 
 Item 1 is what I wish Turing had said but he said a bit more 
 than that, and got us into trouble from day one. Speaking of trouble, check out item 4.
 
@@ -78,7 +80,9 @@ and foray into computational linguistics and cogsci, always ending
 up in my own den. 
 
 <hr>
-<p> Slightly longer:
+<p> Slightly longer bits:
+
+<h3> The grammar bit</h3>
 <p align=justify>
 I am a grammarian. (Some say a pig-headed one; I take that as a compliment.)
 I look at morphology-phonology-lexicon-syntax-semantics relation(s)
@@ -102,13 +106,12 @@ cognitivism, connectionism or dynamical systems. I also happen to believe that
 it is more testable.
 
 <p> Once we 
-<a href="strict-lexicalization.pdf">strictly or radically lexicalise a grammar</a>, word learning
+<a href="strict-lexicalization.pdf">eliminate dichotomy from a grammar</a>, word learning
 and language acquisition converge onto the same problem, whatever that is.
 It is an indirect way of attempting to understand the nature of the 
 problem. We are empirically well-grounded in this affair, because
-human languages are provably non-context-free, and we can strictly lexicalise
-the most restrictive super class of context-free grammars we have found so far, the linear-indexed grammars. The curious thing is that, once we do that, ie
-strictly lexicalise a descriptively adequate grammar, we end up
+human languages are provably non-context-free, and we can de-dichotomize
+the most restrictive super class of context-free grammars we have found so far, the linear-indexed grammars. The curious thing is that, once we do that, we end up
 with limited kinds of semantic dependencies, although syntax seems to be so, ehm, infinite. Understanding the limited nature of this problem forces 
 'infinity' to play second fiddle in linguistics. 
 
@@ -118,7 +121,7 @@ I am suggesting that explaining why an infinite space has finite number of prope
 and comes back in linguistics to haunt us.)
 Saying that that's because we have finite number of rules is not very exciting (not to me, at least), until we say something
 more about these rules. 
-Once we understand that, we might say, "oh by the way, it's potentially infinite.'' 
+Once we understand that, we might say, "oh by the way, it's potentially infinite.'' Mathematicians prefer ``arbitrarily large.''
 
 <p> Let me exemplify. Take four words of the set W = {I,you,think,like}. (Actually that's
 nine word forms but lets not nitpick like a morphologist.) We can create an 
@@ -139,15 +142,15 @@ way of explaining infinity, there is one more rule to explain, that of relativis
 meaning-determines-form explanation, it is about codeterminism of
 semantics and constituency.  
 And you can check the syntactic reflex of that in all languages.
-(What we have done
-is a mini practice of von Humboldtian (or generative) `infinity-in-finiteness' explanations,
-which presume infinity, and Schonfinkelian (or combinatory) `explaining infinity'.)
+(What we have done 
+is a mini practice of eschewing von Humboldtian (or generative) `infinity-in-finiteness' explanations,
+which presume infinity, to turn to Schonfinkelian `explaining infinity'.)
 
 <p>
 Notice that in the W-experiment we get infinity too: any argument-taking argument can do this,
 and no argument without arguments can. 
 
-<p> One of my greatest teachers (Aryeh Faltz) once told me that anything finite is inherently boring. It is parochial. Why would anyone write a grammar to understand a finite number of dependencies? just list them all and be done with it. I believed in that dictum for a long time, but now i'm having second thoughts. It all depends on how we deal with finiteness. In this business, numbers can be everything, contra popular belief.
+<p> One of my greatest teachers (Aryeh Faltz, RIP) once told me that anything finite is inherently boring. It is parochial. Why would anyone write a grammar to understand a finite number of dependencies? just list them all and be done with it. I believed in that dictum for a long time, but now i'm having second thoughts. It all depends on how we deal with finiteness. In this business, numbers can be everything, contra popular belief.
 
 <p> A finite but very large language, say one with 10^200 sentences, needs a search algorithm to see which structures are realised, eventhough, after that search,
 the meaning seems just retrieval, not composition. Search is
@@ -169,7 +172,7 @@ but we wouldn't take all atoms in the universe as its explanation. Enter bounded
 is that human languages exhibit limited semantic dependencies in their syntax.
 We would like to know why. 
 A strong hypothesis in this respect is that languages differ only
-in their lexicons, and an invariant combinatorics gives semantics to order, and order alone, to lead to limited constituency and dependency. Common dependencies need not be stipulated in grammars, only the language specific ones.
+in their grammars, and an invariant combinatorics gives semantics to order, and order alone, to lead to limited constituency and dependency. Common dependencies need not be stipulated in grammars, only the language specific ones.
 From this perspective, infinity of languages (therefore recursion) is of secondary interest. I am beginning to think this is a stronger hypothesis than infinity (in the sense that it takes more burden of proof in its shoulders).
 I am in favour of testing strong hypotheses 
 before we entertain the weaker ones.
@@ -177,65 +180,51 @@ My high school best buddy told me to do that (well, more or less).
 I usually don't do what I'm told but I make exceptions.
 
 <p>
-Lexicalising a grammar is crucial for this hypothesis.
-The underlying idea in fully lexicalising a grammar is the notion
-of "possible lexical category," as models of what 
+De-dichotomizing a grammar is crucial for this hypothesis.
+The underlying idea is the notion
+of "possible category," as models of what 
 <a href="http://en.wikipedia.org/wiki/Edmund_Husserl">
 Edmund Husserl </a> called
 "sensibly distinct representations in the mind."
-Many of us (radical lexicalists) 
+Many of us 
 believe categories need explanation, rather than stipulation.
-NB. these kinds of categories are knife edges: one side is syntactic, the other semantic. Any lexicalised grammar need do justice to both, unless we start
+NB. these kinds of categories are knife edges: one side is syntactic, the other semantic. Any grammar need do justice to both, unless we start
 believing in one-edged knives. (The so-called one-edged knives, kard, culter, facon etc. are knives
 with one edge <b>sharpened</b>, since you asked).
 
 <p>
 I try to work towards a theory of grammar.
-When we radically lexicalise a grammar, something weird happens to words. 
+Something weird happens to words in a grammar. 
 By definition they are exceptional because they are all different, 
 but they begin to bear combinatory categories that must be all over 
 the grammar as a recycled resource. This resource and its recycling needs a theory. 
 Naturally, something 'idiosyncratic' does not need a theory, so the theory we need 
 must be about words' possible use in syntactic contexts, ie it must be about
 constituency. 
-Language is then a  closure of the lexicon with 
-respect to an invariant (and finite) combinatory system.
 (Having said that, I do believe language is a kludge; if I wanted
-perfection in nature, I'd study sharks.) Lexicon is language with small el, l,
-and its combinatorial theory is language with big el, L.
+perfection in nature, I'd study sharks.) 
 I guess what I'm saying is that a theory of kludge is a kludge too; it's 
 turtles all the way down. 
 <a href="http://en.wikipedia.org/wiki/Schonfinkel">Schonfinkel</a> 
 called them combinators. They are nifty kludges to give semantics to order.
 
 <p>
-We can conceive the lexicon as something shaped by the invariant.
+We can conceive the grammar as something shaped by the invariant.
 The invariant can be studied semiotically (extensionally) and 
-psychologically (intensionally). The same goes for the lexicon.
+psychologically (intensionally). The same goes for grammar.
 But first we must account for Merrill Garrett's 
 insight that ``parsing is a reflex.'' (try turning it off
 if you're a skeptic). The part and parcel of the strong
 hypothesis is that this is due to having a combinatory system that
-is purely computational and oblivious to world matters. No movement, no ghost in the machine,
-no checking, no caching, no tampering, no tinkering. What you do with that computation in real life is, ehem, the real meaning of life.
-(What about the mind, you say. I don't know. 
-These hefty global questions usually emanate from certain parts of
-American East Coast. Ask them.) I am more interested in ecology-minded cogsci rather than mind-centered cogsci.
 
 <p> More specifically,
 i am interested in how combinatory and substantive constraints shape surface syntax,
-and the lexical reflex of that effect. I am also
+and the grammatical reflex of that effect. I am also
 interested in
 interactions in components--functionally speaking--of a language system: 
 morphology, syntax, semantics, prosody, information structure, what have you.
-Recently, I have been studying grammatical relations, word order, directionality and categorisation
-in the lexicon, intonation in grammar, 
-Bayesian sorcery for choosing categories, and morphosyntax, 
-based on categorial grammar.
 
 <p> And, oh, before I forget: If your morphological beacon is Latin, we probably live in parallel universes.
-
-
 
 <table style="border:1px solid #aa0033; font-size:small" align=center>
   <tr>
@@ -264,9 +253,9 @@ based on categorial grammar.
 													 </table>
 
 													 <hr>
-													 
-										<a name="cogsci">
-										<h3> The Cogsci bit</h3>
+												 
+<a name="cogsci">
+<h3> The Cogsci bit</h3>
 
 <p>
 I believe grammar can be one of the most productive and creative tools in model construction for cognitive science once it's taken off the dusty shelves of 
@@ -276,8 +265,6 @@ and from linguist's ivory tower. It relates directly to computation as we know i
 The major difference between trees and animals is that animals move and trees don't. Everything that moves has a nervous system. (Not necessarily a central
 system, but a nervous system.) It seems that the whole need for a central nervous system arose because things that move must coordinate their movement and actions. (If you are in doubt, try tying your shoelaces as you run).
 Or it could just be a serendipitous accident to give us the mother of all neurons in a single thunderstrike (or astrocytes, if you like), in which case I will close shop and worship Taranis.
-
-
 
 <p> The point of cognitive science is to make sense of how coordinated activity can take place with what little perceptive abilities a species have, and
 how task-specific knowledge can give rise to something more than the token experience. That's what David Hume suggested---well not in these words, and i'm a bit old-fashioned in this matter to leave the good words to their owners.
@@ -298,7 +285,9 @@ I publicise my own top ten+ list, for whatever it's worth:<sup><a href="#fn1" id
 <hr>
 <h3>The computation bit</h3>
 
-<p> There seems to be a lot of confusion about what computation can do and must do in cognition. Myself being one of the confused, I try to convince students (and usually fail) that just because you use a computer to model does not mean you are a computationalist. Just because you don't use a computer does not mean
+<p> There seems to be a lot of confusion about what computation can do and must do in cognition. 
+
+<p>Myself being one of the confused, I try to convince students (and usually fail) that just because you use a computer to model does not mean you are a computationalist. Just because you don't use a computer does not mean
 you are not a computationalist. (I tend to think Panini was computationalist,
 and ACT-R is not. ACT-R is software engineering for cogsci, much like HPSG is for linguistics.)
 Just because you think symbols are natural
